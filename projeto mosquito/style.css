@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(imagens/pp.jpeg);
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo{
+    color:rgb(26, 122, 122);
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+}
+
+.nav-link{
+    color:cornflowerblue;
+    text-decoration: none;
+} 
+
+ul{
+    list-style: none;
+    display: flex; 
+    gap: 10px; 
+}
+.img-logo{
+    width: 30px;
+    height: 30px;
+}
+
+main{
+    border: 1px orange solid;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+
+
+main button {
+    background-color: darkgrey;
+    width: 80px;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 5px 5px 5px black;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+main button:hover {
+    background: darkcyan
+    ;
+    transition: 0.5s ease;
+    transform: scale(1.20);
+}
+
